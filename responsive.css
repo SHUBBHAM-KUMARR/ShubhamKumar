@@ -1,38 +1,8 @@
-html {
-  font-size: 16px; /* base for rem units */
-}
-
-/* Small screens */
-@media (max-width: 600px) {
-  header {
-    padding: 0 16px;
+@media (max-width:480px){
+    main{
+      width: fit-content;
+    }
+    .break{
+      width: 100%;
+    }
   }
-  header .right ul {
-    font-size: 0.9rem;
-  }
-  header .right ul li {
-    margin: 0 8px;
-    padding: 0.3rem;
-  }
-}
-
-/* Medium screens (tablets) */
-@media (min-width: 601px) and (max-width: 1024px) {
-  header .right ul {
-    font-size: 1rem;
-  }
-  header .right ul li {
-    margin: 0 10px;
-    padding: 0.35rem;
-  }
-}
-
-/* Large screens (desktops) */
-@media (min-width: 1025px) {
-  header .right ul {
-    font-size: 1.1rem;
-  }
-  header .right ul li {
-    margin: 0 14px;
-  }
-}
